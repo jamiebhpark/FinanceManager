@@ -7,18 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D14A9B42C7F1BCF00DA7B5E /* EmptyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14A9B32C7F1BCF00DA7B5E /* EmptyResponse.swift */; };
 		7D3E07252C7DF7A70073D9BD /* FinanceManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E07242C7DF7A70073D9BD /* FinanceManagerApp.swift */; };
 		7D3E07272C7DF7A70073D9BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E07262C7DF7A70073D9BD /* ContentView.swift */; };
 		7D3E07292C7DF7A90073D9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D3E07282C7DF7A90073D9BD /* Assets.xcassets */; };
 		7D3E072C2C7DF7A90073D9BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D3E072B2C7DF7A90073D9BD /* Preview Assets.xcassets */; };
+		7D3E07362C7DF7DC0073D9BD /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D3E07352C7DF7DC0073D9BD /* RxSwift */; };
+		7D3E07392C7DF7F90073D9BD /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7D3E07382C7DF7F90073D9BD /* KakaoSDK */; };
+		7D3E073B2C7DF7F90073D9BD /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7D3E073A2C7DF7F90073D9BD /* KakaoSDKAuth */; };
+		7D3E073D2C7DF7F90073D9BD /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 7D3E073C2C7DF7F90073D9BD /* KakaoSDKUser */; };
+		7D3E07402C7DF8200073D9BD /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E073F2C7DF8200073D9BD /* AuthService.swift */; };
+		7D3E07432C7DF83A0073D9BD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E07422C7DF83A0073D9BD /* LoginView.swift */; };
+		7D3E07462C7DF85B0073D9BD /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E07452C7DF85B0073D9BD /* Transaction.swift */; };
+		7D3E07492C7DF88B0073D9BD /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E07482C7DF88B0073D9BD /* TransactionViewModel.swift */; };
+		7D3E074C2C7DF8A10073D9BD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E074B2C7DF8A10073D9BD /* NetworkManager.swift */; };
+		7D3E074E2C7DF8B90073D9BD /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E074D2C7DF8B90073D9BD /* Budget.swift */; };
+		7D3E07502C7DF8C60073D9BD /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E074F2C7DF8C60073D9BD /* BudgetViewModel.swift */; };
+		7D3E07522C7DF8D90073D9BD /* BudgetChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E07512C7DF8D90073D9BD /* BudgetChartView.swift */; };
+		7D3E07572C7DF9B40073D9BD /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E07562C7DF9B40073D9BD /* Goal.swift */; };
+		7D3E07592C7DF9C00073D9BD /* GoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E07582C7DF9C00073D9BD /* GoalViewModel.swift */; };
+		7D3E075B2C7DF9CD0073D9BD /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E075A2C7DF9CD0073D9BD /* GoalView.swift */; };
+		7D3E075D2C7DFA0A0073D9BD /* scheduleNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E075C2C7DFA0A0073D9BD /* scheduleNotification.swift */; };
+		7D3E075F2C7DFA260073D9BD /* SpendingsChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E075E2C7DFA260073D9BD /* SpendingsChartView.swift */; };
+		7D3E07632C7DFBD00073D9BD /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3E07622C7DFBD00073D9BD /* DateFormatter.swift */; };
+		7D3E07672C7DFC0F0073D9BD /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3E07652C7DFC0F0073D9BD /* XCTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7D3E07682C7DFC0F0073D9BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D3E07672C7DFC0F0073D9BD /* XCTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7D14A9B32C7F1BCF00DA7B5E /* EmptyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResponse.swift; sourceTree = "<group>"; };
 		7D3E07212C7DF7A70073D9BD /* FinanceManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3E07242C7DF7A70073D9BD /* FinanceManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceManagerApp.swift; sourceTree = "<group>"; };
 		7D3E07262C7DF7A70073D9BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D3E07282C7DF7A90073D9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D3E072B2C7DF7A90073D9BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D3E073F2C7DF8200073D9BD /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		7D3E07422C7DF83A0073D9BD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7D3E07452C7DF85B0073D9BD /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		7D3E07482C7DF88B0073D9BD /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		7D3E074B2C7DF8A10073D9BD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7D3E074D2C7DF8B90073D9BD /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		7D3E074F2C7DF8C60073D9BD /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewModel.swift; sourceTree = "<group>"; };
+		7D3E07512C7DF8D90073D9BD /* BudgetChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetChartView.swift; sourceTree = "<group>"; };
+		7D3E07562C7DF9B40073D9BD /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		7D3E07582C7DF9C00073D9BD /* GoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewModel.swift; sourceTree = "<group>"; };
+		7D3E075A2C7DF9CD0073D9BD /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		7D3E075C2C7DFA0A0073D9BD /* scheduleNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleNotification.swift; sourceTree = "<group>"; };
+		7D3E075E2C7DFA260073D9BD /* SpendingsChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingsChartView.swift; sourceTree = "<group>"; };
+		7D3E07622C7DFBD00073D9BD /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		7D3E07652C7DFC0F0073D9BD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7D3E076A2C7DFF330073D9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +77,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3E07362C7DF7DC0073D9BD /* RxSwift in Frameworks */,
+				7D3E07392C7DF7F90073D9BD /* KakaoSDK in Frameworks */,
+				7D3E073D2C7DF7F90073D9BD /* KakaoSDKUser in Frameworks */,
+				7D3E073B2C7DF7F90073D9BD /* KakaoSDKAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +92,7 @@
 			children = (
 				7D3E07232C7DF7A70073D9BD /* FinanceManager */,
 				7D3E07222C7DF7A70073D9BD /* Products */,
+				7D3E07642C7DFC0F0073D9BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +107,18 @@
 		7D3E07232C7DF7A70073D9BD /* FinanceManager */ = {
 			isa = PBXGroup;
 			children = (
+				7D3E076A2C7DFF330073D9BD /* Info.plist */,
+				7D3E074A2C7DF8950073D9BD /* Networking */,
+				7D3E07472C7DF87D0073D9BD /* ViewModels */,
+				7D3E07442C7DF8520073D9BD /* Models */,
+				7D3E07412C7DF82F0073D9BD /* Views */,
+				7D3E073E2C7DF80F0073D9BD /* Services */,
 				7D3E07242C7DF7A70073D9BD /* FinanceManagerApp.swift */,
 				7D3E07262C7DF7A70073D9BD /* ContentView.swift */,
 				7D3E07282C7DF7A90073D9BD /* Assets.xcassets */,
 				7D3E072A2C7DF7A90073D9BD /* Preview Content */,
+				7D3E075C2C7DFA0A0073D9BD /* scheduleNotification.swift */,
+				7D3E07622C7DFBD00073D9BD /* DateFormatter.swift */,
 			);
 			path = FinanceManager;
 			sourceTree = "<group>";
@@ -67,6 +131,62 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7D3E073E2C7DF80F0073D9BD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7D3E073F2C7DF8200073D9BD /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7D3E07412C7DF82F0073D9BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D3E07422C7DF83A0073D9BD /* LoginView.swift */,
+				7D3E07512C7DF8D90073D9BD /* BudgetChartView.swift */,
+				7D3E075A2C7DF9CD0073D9BD /* GoalView.swift */,
+				7D3E075E2C7DFA260073D9BD /* SpendingsChartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7D3E07442C7DF8520073D9BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D3E07452C7DF85B0073D9BD /* Transaction.swift */,
+				7D3E074D2C7DF8B90073D9BD /* Budget.swift */,
+				7D3E07562C7DF9B40073D9BD /* Goal.swift */,
+				7D14A9B32C7F1BCF00DA7B5E /* EmptyResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D3E07472C7DF87D0073D9BD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7D3E07482C7DF88B0073D9BD /* TransactionViewModel.swift */,
+				7D3E074F2C7DF8C60073D9BD /* BudgetViewModel.swift */,
+				7D3E07582C7DF9C00073D9BD /* GoalViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7D3E074A2C7DF8950073D9BD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7D3E074B2C7DF8A10073D9BD /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7D3E07642C7DFC0F0073D9BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D3E07652C7DFC0F0073D9BD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,12 +197,19 @@
 				7D3E071D2C7DF7A70073D9BD /* Sources */,
 				7D3E071E2C7DF7A70073D9BD /* Frameworks */,
 				7D3E071F2C7DF7A70073D9BD /* Resources */,
+				7D3E07682C7DFC0F0073D9BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FinanceManager;
+			packageProductDependencies = (
+				7D3E07352C7DF7DC0073D9BD /* RxSwift */,
+				7D3E07382C7DF7F90073D9BD /* KakaoSDK */,
+				7D3E073A2C7DF7F90073D9BD /* KakaoSDKAuth */,
+				7D3E073C2C7DF7F90073D9BD /* KakaoSDKUser */,
+			);
 			productName = FinanceManager;
 			productReference = 7D3E07212C7DF7A70073D9BD /* FinanceManager.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +238,10 @@
 				Base,
 			);
 			mainGroup = 7D3E07182C7DF7A70073D9BD;
+			packageReferences = (
+				7D3E07322C7DF7DC0073D9BD /* XCRemoteSwiftPackageReference "RxSwift" */,
+				7D3E07372C7DF7F90073D9BD /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+			);
 			productRefGroup = 7D3E07222C7DF7A70073D9BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +268,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3E07522C7DF8D90073D9BD /* BudgetChartView.swift in Sources */,
+				7D3E07402C7DF8200073D9BD /* AuthService.swift in Sources */,
 				7D3E07272C7DF7A70073D9BD /* ContentView.swift in Sources */,
+				7D3E074E2C7DF8B90073D9BD /* Budget.swift in Sources */,
+				7D3E07572C7DF9B40073D9BD /* Goal.swift in Sources */,
+				7D3E075B2C7DF9CD0073D9BD /* GoalView.swift in Sources */,
+				7D3E07432C7DF83A0073D9BD /* LoginView.swift in Sources */,
+				7D3E074C2C7DF8A10073D9BD /* NetworkManager.swift in Sources */,
 				7D3E07252C7DF7A70073D9BD /* FinanceManagerApp.swift in Sources */,
+				7D14A9B42C7F1BCF00DA7B5E /* EmptyResponse.swift in Sources */,
+				7D3E07592C7DF9C00073D9BD /* GoalViewModel.swift in Sources */,
+				7D3E075F2C7DFA260073D9BD /* SpendingsChartView.swift in Sources */,
+				7D3E07502C7DF8C60073D9BD /* BudgetViewModel.swift in Sources */,
+				7D3E07632C7DFBD00073D9BD /* DateFormatter.swift in Sources */,
+				7D3E07462C7DF85B0073D9BD /* Transaction.swift in Sources */,
+				7D3E07492C7DF88B0073D9BD /* TransactionViewModel.swift in Sources */,
+				7D3E075D2C7DFA0A0073D9BD /* scheduleNotification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +421,7 @@
 				DEVELOPMENT_TEAM = 54THW6C299;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +451,7 @@
 				DEVELOPMENT_TEAM = 54THW6C299;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +492,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D3E07322C7DF7DC0073D9BD /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+		7D3E07372C7DF7F90073D9BD /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.22.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D3E07352C7DF7DC0073D9BD /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D3E07322C7DF7DC0073D9BD /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		7D3E07382C7DF7F90073D9BD /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D3E07372C7DF7F90073D9BD /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		7D3E073A2C7DF7F90073D9BD /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D3E07372C7DF7F90073D9BD /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		7D3E073C2C7DF7F90073D9BD /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D3E07372C7DF7F90073D9BD /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7D3E07192C7DF7A70073D9BD /* Project object */;
 }
